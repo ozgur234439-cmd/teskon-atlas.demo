@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import { cn } from "@/lib/cn";
 import type { InputHTMLAttributes, ReactNode } from "react";
 
@@ -14,7 +14,7 @@ export function Input({ className, leading, trailing, ...props }:
         "placeholder:text-[var(--color-atlas-text-muted)]",
         "focus:outline-none focus:border-[var(--color-atlas-cyan)] focus:ring-1 focus:ring-[var(--color-atlas-cyan)]",
         "transition-colors duration-150",
-        leading && "pl-9", trailing && "pr-12", className
+        leading ? "pl-9" : "", trailing ? "pr-12" : "", className
       )} />
       {trailing && <span className="absolute right-3 text-[var(--color-atlas-text-muted)]">{trailing}</span>}
     </div>
