@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#0a0a0a"/>
+  <g transform="translate(256,240)">
+    <!-- Atlas harfi A — stilize -->
+    <path d="M-120,120 L0,-120 L120,120 L72,120 L0,-30 L-72,120 Z" fill="#3b82f6"/>
+    <!-- Üst çizgi -->
+    <rect x="-80" y="40" width="160" height="24" rx="4" fill="#3b82f6"/>
+    <!-- Dünya çizgisi (muhataplık ağı) -->
+    <circle cx="0" cy="-70" r="18" fill="#f59e0b"/>
+  </g>
+  <!-- Alt yazı: TESKON -->
+  <text x="256" y="440" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="2">TESKON</text>
+  <text x="256" y="478" font-family="Arial, sans-serif" font-size="24" font-weight="400" fill="#9ca3af" text-anchor="middle" letter-spacing="6">ATLAS</text>
+</svg>
